@@ -1,30 +1,20 @@
 import React from 'react';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className='App'>
-      <h1>CSS CHALLENGE</h1>
-      <iframe
-        src='//codepen.io/Arnoldovna/embed/GabKJN/?height=800&amp;theme-id=22129&amp;default-tab=result'
-        frameborder='0'
-        title='iframe'
-        scrolling='no'
-        allowfullscreen='true'
-        allowtransparency='true'
-        className='first'
-      />
-
-      <iframe
-        src='//codepen.io/Arnoldovna/embed/OYrKoo/?height=800&amp;theme-id=22129&amp;default-tab=result'
-        frameborder='0'
-        scrolling='no'
-        title='iframe'
-        allowfullscreen='true'
-        allowtransparency='true'
-        className='first'
-      />
+      <div className='header'>
+        <div className='background' />
+        <h1 className='css'>CSS</h1>
+        <h1 className='challenges'>Challenges</h1>
+        <h1 className='overview'>Overview</h1>
+        <svg className='triangle' x='0px' y='0px' viewBox='0 0 207.2 144'>
+          <polygon points='49.52,0 0,99.69 207.2,144 ' />
+        </svg>
+        <div className='circle' />
+      </div>
     </div>
   );
 }
