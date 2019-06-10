@@ -11,6 +11,16 @@ function App() {
         </div>
         <div className='grid'>
           <iframe
+            src='//codepen.io/Arnoldovna/embed/pXzrGN/?height=800&amp;theme-id=22129&amp;default-tab=result'
+            frameborder='0'
+            title='challenge'
+            scrolling='no'
+            allowfullscreen='true'
+            allowtransparency='true'
+            className='cell'
+            autoplay='false'
+          />
+          <iframe
             src='//codepen.io/Arnoldovna/embed/gJZVgX/?height=800&amp;theme-id=22129&amp;default-tab=result'
             frameborder='0'
             title='challenge'
